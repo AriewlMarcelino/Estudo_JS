@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM with styles in the HTML</title>
+</head>
+<body onload="cookies()" >
+    <h1>Animation with JS DOM</h1>
+
+    <div class="container">
+        <!-- alterando a mensagem assim que clicamos no texto -->
+        <p onclick="this.innerHTML='Ops..!..Cliquei..'">Click aqui!</p>
+
+        <!-- botão que vai trazer o date assim que for clicado -->
+        <button onclick="date()">What time is now?</button>
+        <p class="btn"></p>
+
+        <!-- Verificação de cookies no navegador do usuario -->
+        <p class="cookie"></p>
+
+        <!-- Input do usuario que sera convertido para upperCase automaticamente -->
+        <label>Converte letras para upperCase:</label>
+        <div>
+            <input type="text" onchange="upperCase()" name="input1" id="ipt1">
+        </div>
+
+        <!-- Converte letras de Maiusculo paera miunsculo -->
+        <label>Converte letras para lowerCase:</label>
+        <div>
+            <input type="text" onchange="lowCase()" name="input2" id="ipt2">
+        </div>
+    </div>
+    <div class="conteiner">
+        <button onmousemove="mOver(this)" onmouseout="mOut(this)">Mova o mouse sobre min !</button>
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+</html>
