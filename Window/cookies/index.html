@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JS cookies</title>
+</head>
+<body onload="checkCookie()">
+    <h1>Trabalhando com Cookies dentro do JS</h1>
+
+    <p>Cookies são nada mais, nada menos que um armazenamento temporiario que o navegador do usuario faz, para que algumas informações sejam coletadas, e armazenadas para que o usuario em si, possa utilizar em uma outro acesso. Como nome e outros dados.</p>
+
+    <p>Os cookies pelo que visto na documentação da W3C, foi criado justamente para poder estar guardando essas informações para usuario, assim que entra-se , ele ja desse um prefixo dessas informações.</p>
+
+    <h1>Criando um cookie com JavaScript</h1>
+
+    <p>Com o JavaScript podemos criar,ler e excluir um cookie.</p>
+
+    <p>Sendo que um cookies pode ser criado assim: </p>
+
+    <code>document.cookie = <span>"username = Paulo Silva"</span></code>
+
+    <p>Como também podemos estar inserindo uma data de expiração para este cookie:
+    </p>
+
+    <code>document.cookie = <span>"username=Paulo Silva"; expires=Thu, 09 Abr 2023 12:00:00 UTC"</span></code>
+
+    <p>Podemos também informar com um parametro, a qual navegador aquele cookie pertence:</p>
+    
+    <code>document.cookie = <span>"username=Paulo Silva"; expires=Thu, 09 Abr 2023 12:00:00 UTC; path=/"</span></code>
+    
+</body>
+<script src="./script.js"></script>
+</html>
