@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JS API's</title>
+</head>
+<body>
+
+    <h2>Validação de restrição com JS</h2>
+
+    <!-- Se um campo estiver com dados que sejam invalidos , exiba uma mensagem. -->
+    <p>Insira numero de 100 a 300:</p>
+    <input type="number" id="id1" min="100" max="300" required>
+    <button onclick="validacaoDeDados()">Validar</button>
+    <p class="demo"></p>
+
+    <!-- Validação de campo com numeros que estajam acima de 100, mesno que isso retorna erro.-->
+    <p>Insira um numero no minimo até 100:</p>
+    <input type="number" id="id2" max="100" required>
+    <button onclick="validaMin()">Validar</button>
+    <p class="msg"></p>
+
+    <!-- Validação de campos com numero que tem que ser abaixo de 100, senão retorna erro. -->
+    <p>Insira um numero abaixo de 100:</p>
+    <input type="number" id="id3" min="100" required>
+    <button onclick="validaMax()" >Validar</button>
+    <p class="msg1"></p>
+
+    
+</body>
+<script src="./script.js"></script>
+</html>
