@@ -1,0 +1,9 @@
+.resultado{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+}
