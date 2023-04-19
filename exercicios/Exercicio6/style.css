@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: fangsong;
+}
+.inicio{
+    display: grid;
+    font-size: 20px;
+    justify-content: start;
+    padding-left:15px;
+}
+
+main{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: grid;
+    justify-content: center;
+}
+
+.info{
+    text-align: center;
+    font-size: 28px;
+    width: 860px;
+    font-family: fangsong;
+
+}
+
+.ano{
+    text-align: center;
+    font-size: 24px;
+    font-family: fangsong;
+    font-weight: 700;
+}
+
+.demo{
+    font-size: 42px;
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-family: fangsong;
+    padding: 80px;
+}
+.btn{
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    display: grid;
+    align-items: center;
+    font-family: fangsong;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: fangsong;
+}
