@@ -1,0 +1,152 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: fangsong;
+}
+.inicio{
+    display: grid;
+    font-size: 20px;
+    justify-content: start;
+    padding-left:15px;
+}
+
+main{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+div{
+    align-items: center;
+    display: flex;
+    justify-content:end;
+    text-align: center;
+}
+
+.qua, .cin{
+    font-size: 82px;
+    font-family: fangsong;
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+.info{
+    text-align: center;
+    font-size: 28px;
+    width: 860px;
+    font-weight: bold;
+    font-family: fangsong;
+    border: solid 1px gray;
+    padding: 50px;
+    
+}
+.calendario{
+    border: solid 1px gray;
+    position: relative;
+    bottom: 180px;
+    padding: 30px;
+}
+
+.quatorze{
+    font-size: 24px;
+    background-color: crimson;
+    color: white;
+    height: 56px;
+    display: grid;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    border-radius: 11px;
+    right: 186px;
+    top: 87px;
+}
+
+.numeroDoUsuario{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    background: lightgreen;
+    width: 400px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 50px;
+    position: relative;
+    left: 260px;
+    bottom: 129px;
+}
+
+.cinquenta{
+    font-size: 24px;
+    background-color: crimson;
+    color: white;
+    height: 56px;
+    display: grid;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    border-radius: 11px;
+    right: 186px;
+    top: 87px;
+}
+
+.ano{
+    text-align: center;
+    font-size: 24px;
+    font-family: fangsong;
+    font-weight: 700;
+}
+
+.demo{
+    font-size: 42px;
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-family: fangsong;
+    padding: 80px;
+}
+.btn{
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    display: grid;
+    align-items: center;
+    font-family: fangsong;
+    position: relative;
+    right: 379px;
+}
+
+#data{
+    height: 60px;
+    position: relative;
+    width: 650px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    bottom: 280px;
+    
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: fangsong;
+    position: relative;
+    top: 30px;
+}
